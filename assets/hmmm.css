@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+html{
+    background: linear-gradient(180deg, #1a1a1a 0%, rgb(0, 0, 0) 100%) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body{
+    color: white;
+    font-family: "Jersey 10", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-weight: 400;
+    font-size: 5em;
+}
+p{
+    font-size: 1.5em;
+}
+
+#some{
+    font-size: 1em;
+    color:rgb(105, 255, 107);;
+}
+div{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    width: 10em;
+    transition: 0.3s;
+}
+img:hover{
+    width: 13em;
+}
+b{
+    transition: 0.3s;
+}
+b:hover{
+    font-size: 2em;
+    color: rgb(105, 255, 107);;
+}
+
+.button{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.button > div{
+    border-radius: 15px;
+    color: white;
+    width: 10em;
+    padding: 1em;
+    background: linear-gradient(180deg, rgb(105, 255, 107) 0%, rgb(61, 170, 11) 100%);
+    transition: 0.3s;
+}
+
+.button > div:hover{
+    padding: 1.2em;
+    background: linear-gradient(180deg, rgb(105, 255, 107) 0%, rgb(38, 110, 5) 100%);
+}
+
+select{
+    transition: 0.3s;
+}
+select:hover{
+    padding: 0em 1em;
+}

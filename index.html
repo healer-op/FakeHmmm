@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FakeHmmm</title>
+    <meta content="https://hmmm.eu.org/assets/logo.jpg" property="og:image">
+    <meta content="FakeHmmm.... Details? Okay We Have that!" name="description">
+    <meta content="https://hmmm.eu.org/assets/logo.jpg" property="og:image">
+    <meta name="theme-color" content="#75ff70">
+    <meta content="https://hmmm.eu.org/assets/logo.jpg" property="twitter:image">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/hmmm.css">
+    <link href="https://hmmm.eu.org/assets/logo.jpg" rel="shortcut icon" type="image/x-icon">
+    <link href="https://hmmm.eu.org/assets/logo.jpg" rel="apple-touch-icon">
+</head>
+
+<body>
+    <div>
+        <h1>FakeHmmm</h1>
+        <img id="src" src="">
+        <p>FullName :<b id="fullName" onclick="copyClip(`fullName`)"></b></p>
+        <p>Age :<b id="age" onclick="copyClip(`age`)"></b></p>
+        <p>DOB :<b id="dob" onclick="copyClip(`dob`)"></b></p>
+        <p>Address : <b id="address" onclick="copyClip(`address`)"></b></p>
+        <p>Phone : <b id="phone" onclick="copyClip(`phone`)"></b></p>
+        <p>SSN : <b id="ssn" onclick="copyClip(`ssn`)"></b></p>
+        <select id="country" onchange="changed()">
+            <option value="US">United States</option>
+            <option value="AU">Australia</option>
+            <option value="BR">Brazil</option>
+            <option value="CA">Canada</option>
+            <option value="CH">Switzerland</option>
+            <option value="DE">Germany</option>
+            <option value="DK">Denmark</option>
+            <option value="ES">Spain</option>
+            <option value="FI">Finland</option>
+            <option value="FR">France</option>
+            <option value="GB">United Kingdom</option>
+            <option value="IE">Ireland</option>
+            <option value="IN">India</option>
+            <option value="IR">Iran</option>
+            <option value="MX">Mexico</option>
+            <option value="NL">Netherlands</option>
+            <option value="NO">Norway</option>
+            <option value="NZ">New Zealand</option>
+            <option value="RS">Serbia</option>
+            <option value="TR">Turkey</option>
+            <option value="UA">Ukraine</option>
+          </select>
+        <div class="button">
+            <div id="button" onclick="refresh()">refresh</div>
+        </div>
+        <p id="some"></p>
+    </div>
+    <script src="assets/hmmm.js" async defer></script>
+</body>
+
+</html>
